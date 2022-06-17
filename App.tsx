@@ -20,8 +20,8 @@ export default function App() {
           Poppins_500Medium,
           Poppins_700Bold,
         });
-      } catch {
-        console.log("error loading fonts");
+      } catch(e) {
+        console.warn(e);
       } finally {
         setAppIsReady(true);
       }
