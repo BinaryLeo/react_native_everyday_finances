@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "everydayfinances",
+    "slug": "everydayfinances",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
