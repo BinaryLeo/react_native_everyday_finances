@@ -2,7 +2,7 @@ export default{
     colors:{
         primary: '#FFC72C',
         secondary: '#212223',
-        background: '#F0F2F5',
+        background: '#161620',
         shape:'#fff',
         success: '#00b300',
         error: '#ff0000',

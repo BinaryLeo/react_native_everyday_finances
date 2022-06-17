@@ -1,5 +1,4 @@
 import React from "react";
-import { Text } from "react-native";
 import { 
   Container,
    Header,
@@ -9,6 +8,7 @@ import {
    UserGreeting,
    UserName,
    UserWrapper,
+   Icon,
 
    } from "./styles";
 
@@ -28,7 +28,9 @@ export function Dashboard({ onLayout }: Props) {
             <UserName>João</UserName>
           </User>
         </UserInfo>
+        <Icon name="power"/>
         </UserWrapper>
+       
       </Header>
     </Container>
   );
