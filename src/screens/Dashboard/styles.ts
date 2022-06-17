@@ -5,8 +5,10 @@ export const Container = styled.View`
   background-color: #fff;
   align-items: center;
   justify-content: center;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.background};
 `;
 export const Title = styled.Text`
+  font-family: ${({ theme }) => theme.fonts.regular};
   font-size: 24px;
+  color: ${({ theme }) => theme.colors.title};
 `;

@@ -8,5 +8,10 @@ export default{
         error: '#ff0000',
         warning: 'rgba(255,0,0, 0.3)',
         title:'#000',
+    },
+    fonts:{
+        regular: 'Poppins_400Regular', 
+        medium: 'Poppins_500Medium',
+        bold: 'Poppins_700Bold',
     }
-} 
+}
