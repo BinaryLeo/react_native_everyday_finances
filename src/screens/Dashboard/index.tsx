@@ -1,13 +1,14 @@
 import React from "react";
-import { Container, Title } from "./styles";
+import { Text } from "react-native";
+import { Container, Header } from "./styles";
 
-interface Props{
+interface Props {
   onLayout: () => void;
 }
 export function Dashboard({ onLayout }: Props) {
   return (
     <Container onLayout={onLayout}>
-      <Title>Dashboard</Title>
+      <Header></Header>
     </Container>
   );
 }
