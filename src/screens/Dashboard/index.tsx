@@ -32,9 +32,21 @@ export function Dashboard({ onLayout }: Props) {
         </UserWrapper>
       </Header>
       <HighlightCards>
-        <HighlightCard />
-        <HighlightCard />
-        <HighlightCard />
+        <HighlightCard 
+        type="up"
+        title="Incomes"
+        amount="$ 17.400,00"
+        lastTransaction="Last income on April 13th"  />
+        <HighlightCard 
+        type="down"
+        title="Outcomes"
+        amount="$ 1.259,00"
+        lastTransaction="Last Outcomes on April 3rd"  />
+        <HighlightCard 
+        type="total"
+        title="Total"
+        amount="$ 16.141,00"
+        lastTransaction="April 01 to 16"  />
       </HighlightCards>
     </Container>
   );
