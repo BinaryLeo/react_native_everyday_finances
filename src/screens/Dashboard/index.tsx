@@ -24,8 +24,8 @@ export function Dashboard({ onLayout }: Props) {
           <UserInfo>
             <Photo source={{ uri: "https://github.com/binaryleo.png" }} />
             <User>
-              <UserGreeting>Olá,</UserGreeting>
-              <UserName>João</UserName>
+              <UserGreeting>Hi,</UserGreeting>
+              <UserName>John</UserName>
             </User>
           </UserInfo>
           <Icon name="power" />

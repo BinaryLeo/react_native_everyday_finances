@@ -1,5 +1,7 @@
 import React, { useEffect, useState, useCallback } from "react";
 import { ThemeProvider } from "styled-components";
+import theme from "./src/global/styles/theme";
+
 import * as SplashScreen from "expo-splash-screen";
 import * as Font from "expo-font";
 import {
@@ -7,7 +9,7 @@ import {
   Poppins_500Medium,
   Poppins_700Bold,
 } from "@expo-google-fonts/poppins";
-import theme from "./src/global/styles/theme";
+
 import { Dashboard } from "./src/screens/Dashboard";
 export default function App() {
   const [appIsReady, setAppIsReady] = useState(false);
