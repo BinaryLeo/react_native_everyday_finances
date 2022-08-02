@@ -11,7 +11,7 @@ export const Header = styled.View`
   height: ${RFPercentage(42)}px;
   background-color: ${({ theme }) => theme.colors.primary};
   flex-direction: row;
-  align-items:flex-start;
+  align-items:flex-start;    
   justify-content: center;
 `;
 export const UserWrapper = styled.View`

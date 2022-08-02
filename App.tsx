@@ -22,26 +22,25 @@ export default function App() {
           Poppins_500Medium,
           Poppins_700Bold,
         });
-      } catch(e) {
+      } catch (e) {
         console.warn(e);
       } finally {
         setAppIsReady(true);
       }
     })();
   }, []);
-  const onLayout = useCallback(async() => {
+  const onLayout = useCallback(async () => {
     if (appIsReady) {
-     await SplashScreen.hideAsync();
+      await SplashScreen.hideAsync();
     }
   }, [appIsReady]);
 
   if (!appIsReady) {
     return null;
   }
-    return (
-      <ThemeProvider theme={theme}>
-        <Dashboard onLayout={onLayout} />
-      </ThemeProvider>
-    );
-  
+  return (
+    <ThemeProvider theme={theme}>
+      <Dashboard onLayout={onLayout} />
+    </ThemeProvider>
+  );
 }
