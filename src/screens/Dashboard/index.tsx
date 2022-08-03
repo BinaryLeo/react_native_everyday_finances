@@ -1,5 +1,6 @@
 import React from "react";
 import { HighlightCard } from "../../components/HighlightCard";
+import { TransactionCard } from "../../TransactionCard";
 import {
   Container,
   Header,
@@ -11,6 +12,8 @@ import {
   UserWrapper,
   Icon,
   HighlightCards,
+  Title,
+  Transactions
 } from "./styles";
 
 interface Props {
@@ -51,6 +54,11 @@ export function Dashboard({ onLayout }: Props) {
           lastTransaction="April 01 to 16"
         />
       </HighlightCards>
+
+      <Transactions>
+        <Title>Transactions</Title>
+        <TransactionCard/>
+      </Transactions>
     </Container>
   );
 }
